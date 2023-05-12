@@ -12,5 +12,6 @@
 	"html.format.wrapAttributes": "force",
 	"html.format.wrapLineLength": 0,
 	"php-cs-fixer.formatHtml": true,
-	"php-cs-fixer.autoFixBySemicolon": true
+	"php-cs-fixer.autoFixBySemicolon": true,
+	"php.version": "v8.1"
 }

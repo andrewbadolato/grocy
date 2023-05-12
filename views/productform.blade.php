@@ -188,11 +188,11 @@
 				value="1">
 			@endif
 
-			@php if($mode == 'edit') { $value = $product->min_stock_amount; } else { $value = 0; } @endphp
+			@php if($mode == 'edit') { $value = $product->min_stock_amount; } else { $value = 1; } @endphp
 			@include('components.numberpicker', array(
 			'id' => 'min_stock_amount',
 			'label' => 'Minimum stock amount',
-			'min' => '0.',
+			'min' => '1.',
 			'decimals' => $userSettings['stock_decimal_places_amounts'],
 			'value' => $value,
 			'additionalGroupCssClasses' => 'mb-1',
